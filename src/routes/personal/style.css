@@ -1,0 +1,170 @@
+body {
+  background-color: #2C2E3A;
+}
+body .personal-course {
+  width: 100%;
+}
+body .personal-course .tit {
+  width: 100%;
+  height: 2rem;
+  line-height: 2rem;
+  margin: 1.33rem 0;
+  padding-left: 1.23rem;
+}
+body .personal-course .tit .iconfont {
+  width: 1.34rem;
+  display: inline-block;
+  color: #FB227F;
+}
+body .personal-course .tit h3 {
+  align-items: center;
+  display: inline-block;
+  font-family: PingFangSC-Regular;
+  color: #ffffff;
+  font-size: 1.42rem;
+  margin-left: 0.42rem;
+}
+body .personal-course .coach {
+  width: 100%;
+  padding-left: 1.23rem;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  height: 11.67rem;
+  margin-bottom: 1.63rem;
+}
+body .personal-course .coach .coach-list {
+  width: 58.3rem;
+}
+body .personal-course .coach .coach-list .coach-item {
+  display: inline-block;
+  width: 10.83rem;
+  height: 100%;
+  margin-right: 0.83rem;
+  position: relative;
+  vertical-align: top;
+}
+body .personal-course .coach .coach-list .coach-item .love-heart {
+  width: 100%;
+  height: 6.67rem;
+  display: block;
+}
+body .personal-course .coach .coach-list .coach-item .coach-dsc {
+  background-color: #ffffff;
+  width: 100%;
+  height: 5rem;
+  padding-left: 0.83rem;
+  padding-top: 0.42rem;
+  padding-bottom: 0.42rem;
+}
+body .personal-course .coach .coach-list .coach-item .coach-dsc .coach-res {
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.33rem;
+  color: #2C2E3A;
+  line-height: 1.88rem;
+}
+body .personal-course .coach .coach-list .coach-item .coach-dsc .iconfont {
+  font-size: 1rem;
+  color: #FCCB51;
+}
+body .personal-course .coach .coach-list .coach-item .coach-dsc .speciality {
+  font-family: PingFangSC-Regular;
+  font-size: 1rem;
+  color: #2C2E3A;
+  line-height: 1.38rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+body .personal-course .coach .coach-list .coach-item .support {
+  width: 1.63rem;
+  position: absolute;
+  top: 5.8rem;
+  right: 1rem;
+}
+body .personal-course .isAppoint {
+  width: 100%;
+}
+body .personal-course .isAppoint .infoList {
+  width: 100%;
+  padding: 0 0 1.67rem 1.67rem;
+  border-top: 1px solid #666666;
+}
+body .personal-course .isAppoint .infoList .info-show {
+  width: 100%;
+  border-bottom: 1px solid #666666;
+  padding-top: 1.1rem;
+  padding-bottom: 2.5rem;
+}
+body .personal-course .isAppoint .infoList .info-show img {
+  display: inline-block;
+  width: 4.17rem;
+  height: 4.17rem;
+  border-radius: 50%;
+  background-color: red;
+  margin-right: 1.25rem;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail {
+  display: inline-block;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail span {
+  display: block;
+  color: #ffffff;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail .coach-name {
+  font-family: PingFangSC-Regular;
+  font-size: 1.33rem;
+  color: #FFFFFF;
+  line-height: 1.88rem;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail .coach-name .graph {
+  display: inline-block;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail .coach-name .graph .triangle {
+  display: inline-block;
+  width: 0rem;
+  height: 0rem;
+  border-right: 0.67rem solid #30EFD6;
+  border-top: 0.67rem solid #2C2E3A;
+  border-bottom: 0.67rem solid #2C2E3A;
+  border-left: 0.67rem solid #2C2E3A;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail .coach-name .graph .rectangle {
+  display: inline-block;
+  width: 4.5rem;
+  background-color: #30EFD6;
+  height: 1.34rem;
+  font-size: 0.83rem;
+  vertical-align: top;
+  line-height: 1.34rem;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail .total-couse {
+  font-family: PingFangSC-Regular;
+  font-size: 1rem;
+  color: #FFFFFF;
+  line-height: 1.42rem;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail .total-couse .iconfont {
+  font-size: 1rem;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail .total-couse .iconfont .ant-rate-star-half .ant-rate-star-first,
+body .personal-course .isAppoint .infoList .info-show .info-detail .total-couse .iconfont .ant-rate-star-full .ant-rate-star-second {
+  color: #FB227F;
+}
+body .personal-course .isAppoint .infoList .info-show .info-detail .strong-point {
+  font-family: PingFangSC-Regular;
+  font-size: 1.17rem;
+  color: #CCCCCC;
+  line-height: 1.67rem;
+}
+body .personal-course .isAppoint .infoList .info-show .xcool {
+  width: 6rem;
+  height: 6rem;
+  margin-right: 1rem;
+  float: right;
+}
+body .personal-course .isAppoint .infoList .info-show img {
+  background-color: #000000;
+}
+.isAppoint {
+  padding-bottom: 4.17rem;
+}

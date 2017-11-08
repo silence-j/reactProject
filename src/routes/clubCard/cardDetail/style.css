@@ -1,0 +1,212 @@
+body {
+  background-color: #2C2E3A;
+}
+body .club-card .top-pic {
+  width: 100%;
+  position: relative;
+}
+body .club-card .top-pic .background-pic {
+  width: 100%;
+}
+body .club-card .top-pic .card-type {
+  position: absolute;
+  width: 7.28rem;
+  height: 7.75rem;
+  margin-top: 10%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+body .club-card .top-pic .title {
+  position: absolute;
+  font-family: 'PingFangSC-Semibold';
+  font-size: 1.42rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+  bottom: 4rem;
+}
+body .club-card .year-card .card-list {
+  height: 5rem;
+  width: 100%;
+  padding: 0 4.1%;
+  box-sizing: border-box;
+  margin-top: 1.25rem;
+}
+body .club-card .year-card .card-list .card-item {
+  display: inline-block;
+  width: 30.8%;
+  border: 0.083rem solid #979797;
+  height: 5rem;
+  margin-right: 2.7%;
+  border-radius: 0.17rem;
+  text-align: center;
+  position: relative;
+}
+body .club-card .year-card .card-list .card-item p {
+  margin-top: 0.79rem;
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.42rem;
+  color: #D8D8D8;
+  line-height: 2rem;
+}
+body .club-card .year-card .card-list .card-item span {
+  font-family: 'PingFangSC-Regular';
+  font-size: 1rem;
+  color: #D8D8D8;
+  line-height: 1.37rem;
+}
+body .club-card .year-card .card-list .card-item .triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-bottom: 1.98rem solid #FCCB51;
+  border-left: 1.98rem solid transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+body .club-card .year-card .card-list .card-item .triangle .pitch {
+  position: absolute;
+  top: 0.92rem;
+  right: 0.08rem;
+  font-size: 1rem;
+}
+body .club-card .year-card .card-list .active {
+  border: 0.083rem solid #FCCB51;
+}
+body .club-card .year-card .card-list .card-item:last-child {
+  margin-right: 0;
+}
+body .club-card .privileges {
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 4.1%;
+  margin-top: 2.5rem;
+  padding-bottom: 0.84rem;
+  border-bottom: 0.04rem solid #666666;
+}
+body .club-card .privileges .crown {
+  height: 2rem;
+  margin-right: 0.45rem;
+  color: #FCCB51;
+}
+body .club-card .privileges h2 {
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.42rem;
+  color: #FCCB51;
+  display: inline-block;
+  height: 2rem;
+  line-height: 2rem;
+}
+body .club-card .state-list .statement {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 4%;
+}
+body .club-card .state-list .statement .state-item {
+  width: 100%;
+  border-bottom: 0.04rem solid #666666;
+  padding: 0.67rem 0;
+}
+body .club-card .state-list .statement .state-item h2 {
+  height: 1.88rem;
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.33rem;
+  color: #CCCCCC;
+}
+body .club-card .state-list .statement .state-item p {
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.17rem;
+  line-height: 1.67rem;
+  color: #999999;
+}
+body .club-card .state-list .statement .state-item:first-child {
+  padding-top: 1.67rem;
+}
+body .club-card .state-list .statement .state-item:last-child {
+  padding-bottom: 1.67rem;
+}
+body .club-card .notice {
+  margin-top: 2.33rem;
+  padding-left: 4%;
+  box-sizing: border-box;
+  padding-bottom: 1.67rem;
+}
+body .club-card .notice h2 {
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.42rem;
+  color: #FFFFFF;
+}
+body .club-card .notice .notice-list .notice-item {
+  margin-top: 0.84rem;
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.17rem;
+  color: #CCCCCC;
+  line-height: 1.67rem;
+}
+body .club-card .foot {
+  width: 100%;
+  height: 4.17rem;
+  box-sizing: content-box;
+  font-size: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+body .club-card .foot .buy-price {
+  display: inline-block;
+  height: 100%;
+  width: 62.7%;
+  background-color: #FFFFFF;
+  padding-left: 5.2%;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+body .club-card .foot .buy-price .discount {
+  font-family: 'PingFangSC-Semibold';
+  font-size: 1.5rem;
+  color: #FB227F;
+  line-height: 2rem;
+  display: inline-block;
+  margin-top: 0.37rem;
+}
+body .club-card .foot .buy-price .original {
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.17rem;
+  color: #999999;
+  line-height: 1.67rem;
+  position: relative;
+}
+body .club-card .foot .buy-price .original .line {
+  display: inline-block;
+  width: 3.8rem;
+  height: 0;
+  border-top: 1px solid #999999;
+  position: absolute;
+  top: 0.75rem;
+  right: -0.2rem;
+}
+body .club-card .foot .buy-price p {
+  font-family: 'PingFangSC-Regular';
+  font-size: 1rem;
+  color: #2C2E3A;
+  line-height: 1.37rem;
+}
+body .club-card .foot .buy-now {
+  height: 100%;
+  width: 37.3%;
+  display: inline-block;
+  background-color: #FCCB51;
+  text-align: center;
+  line-height: 4.17rem;
+  font-family: 'PingFangSC-Regular';
+  font-size: 1.5rem;
+  color: #2C2E3A;
+}

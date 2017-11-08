@@ -1,0 +1,104 @@
+body {
+  background-color: #2C2E3A;
+}
+body .container {
+  width: 100%;
+  padding-bottom: 4.17rem;
+}
+body .container .pic-show {
+  width: 100%;
+  position: relative;
+  margin-bottom: 2.04rem;
+}
+body .container .pic-show .background-pic {
+  width: 100%;
+}
+body .container .pic-show .card {
+  width: 92%;
+  height: 75%;
+  position: absolute;
+  top: 12.5%;
+  left: 4%;
+}
+body .container .combo {
+  width: 100%;
+}
+body .container .combo h3 {
+  width: 100%;
+  padding-left: 1.25rem;
+  font-family: PingFangSC-Regular;
+  font-size: 1.42rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 2rem;
+  margin-bottom: 0.84rem;
+}
+body .container .combo .card-list {
+  width: 100%;
+  margin-bottom: 4.17rem;
+}
+body .container .combo .card-list .card-item {
+  width: 100%;
+  padding-left: 2.25rem;
+  padding-right: 1.71rem;
+  height: 6.67rem;
+  border-top: 1px solid #666666;
+  position: relative;
+}
+body .container .combo .card-list .card-item img {
+  width: 3.46rem;
+  position: absolute;
+  top: 1.68rem;
+}
+body .container .combo .card-list .card-item .card-content {
+  display: inline-block;
+  position: absolute;
+  left: 7.72rem;
+  top: 1.7rem;
+}
+body .container .combo .card-list .card-item .card-content .card-name {
+  display: block;
+  font-family: PingFangSC-Semibold;
+  font-size: 1.42rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.88rem;
+}
+body .container .combo .card-list .card-item .card-content .year-card {
+  font-family: PingFangSC-Regular;
+  font-size: 1rem;
+  color: #666666;
+  letter-spacing: 0;
+  line-height: 1.38rem;
+}
+body .container .combo .card-list .card-item .card-price {
+  display: inline-block;
+  position: absolute;
+  top: 1.92rem;
+  right: 1.71rem;
+  text-align: right;
+}
+body .container .combo .card-list .card-item .card-price .newPrice {
+  display: block;
+  font-family: PingFangSC-Semibold;
+  font-size: 1.17rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.67rem;
+}
+body .container .combo .card-list .card-item .card-price .oldPrice {
+  font-family: PingFangSC-Regular;
+  font-size: 1rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  line-height: 1.38rem;
+}
+body .container .combo .card-list .card-item .card-price .oldPrice .line {
+  display: inline-block;
+  width: 3.5rem;
+  height: 0;
+  border-top: 1px solid #FFFFFF;
+  position: absolute;
+  top: 2.45rem;
+  right: -0.2rem;
+}

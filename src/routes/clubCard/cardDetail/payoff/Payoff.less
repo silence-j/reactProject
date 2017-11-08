@@ -1,0 +1,157 @@
+body {
+    background: #2C2E3A;
+    .payoff {
+        width: 100%;
+        box-sizing: border-box;
+        // padding: 0 4%;
+        .combo {
+            width: 100%;
+            height: 4.17rem;
+            font-family: 'PingFangSC-Regular';
+            font-size: 1.42rem;
+            color: #FFFFFF;
+            line-height: 4.17rem;
+            padding: 0 4%;
+            overflow: hidden;
+            .pay-combo {
+                display: inline-block;
+                float: left;
+            }
+            .pay-yearcard {
+                display: inline-block;
+                float: right;
+            }
+        }
+        .price {
+            width: 100%;
+            height: 4.17rem;
+            font-family: 'PingFangSC-Regular';
+            font-size: 1.42rem;
+            color: #FFFFFF;
+            line-height: 4.17rem;
+            padding: 0 4%;
+            overflow: hidden;
+            .pay-price {
+                display: inline-block;
+                float: left;
+            }
+            .pay-money {
+                display: inline-block;
+                float: right;
+                font-family: 'PingFangSC-Regular';
+                font-size: 1.17rem;
+                color: #FCCB51;
+            }
+        }
+        .pay-way {
+            margin-top: 0.75rem;
+            border-top: 0.04rem solid #666666;
+            padding-top: 2.5rem;
+            padding: 2.5rem 4% 0 4%;
+            h2 {
+                font-family: 'PingFangSC-Regular';
+                font-size: 1.42rem;
+                color: #FFFFFF;
+                line-height: 2rem;
+            }
+            .methods {
+                width: 100%;
+                height: 2rem;
+                font-size: 0;
+                margin-top: 1.71rem;
+                line-height: 2rem;
+                .weixin {
+                    font-size: 2rem;
+                    color: #24AF41;
+                }
+                .chuzhika {
+                    font-size: 1.5rem;
+                    margin-right: 0.67rem;
+                    color: #FCCB51;
+                    vertical-align: middle;
+                }
+                span {
+                    font-family: 'PingFangSC-Regular';
+                    font-size: 1.33rem;
+                    color: #FFFFFF;
+                    line-height: 1.88rem;
+                    vertical-align: top;
+                    margin-left: 0.67rem;
+                }
+                .check {
+                    vertical-align: top;
+                    float: right;
+                    .ant-checkbox-inner  {
+                    width: 2rem;
+                    height: 2rem;
+                    border-radius: 50%;
+                    border: none;
+                    }
+                }
+                
+            }
+            .clause {
+                margin-top: 1.75rem;
+                height: 1.37rem;
+                input {
+                    border: none;
+                    background-color: #FCCB51;
+                    color: #FCCB51;
+                    outline: none;
+                    vertical-align: middle;
+                }
+                .agree {
+                    font-family: 'PingFang-SC-Regular';
+                    font-size: 1rem;
+                    color: #FEFEFE;
+                    letter-spacing: 0;
+                    padding-right: 0;
+                    margin-left: 0.42rem;
+                    vertical-align: middle;
+                }
+                .server-clause {
+                    font-family: 'PingFang-SC-Regular';
+                    font-size: 1rem;
+                    color: #FCCB51;
+                    letter-spacing: 0;
+                    vertical-align: middle;
+                }
+            }
+        }
+        .pay-now {
+            width: 100%;
+            height: 4.17rem;
+            position: absolute;
+            bottom: 0;
+            background-color:  #DDDDDD;
+            font-family: 'PingFangSC-Regular';
+            font-size: 1.5rem;
+            color: #999999;
+            line-height: 4.17rem;
+            text-align: center;
+        }
+        .active {
+            background-color: #FCCB51;
+            color: #2C2E3A;
+        }
+    }
+}
+
+.ant-checkbox-inner:after {
+    -webkit-transform: rotate(45deg) scale(0);
+    -ms-transform: rotate(45deg) scale(0);
+    transform: rotate(45deg) scale(0);
+    position: absolute;
+    left: 0.25rem;
+    top: -0.05rem;
+    display: table;
+    width: 0.6rem;
+    height: 1rem;
+    border: 0.08rem solid #fff;
+    border-top: 0;
+    border-left: 0;
+    content: ' ';
+    -webkit-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+    -o-transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+    transition: all 0.1s cubic-bezier(0.71, -0.46, 0.88, 0.6);
+}

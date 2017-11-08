@@ -1,0 +1,221 @@
+body {
+  background-color:  #2C2E3A;
+  .club-card {
+    .top-pic {
+      width: 100%;
+      position: relative;
+      .background-pic {
+        width: 100%;
+      }
+      .card-type {
+        position: absolute;
+        width: 7.28rem;
+        height: 7.75rem;
+        margin-top: 10%;
+        left: 50%;
+        -webkit-transform:translate(-50%);
+        -moz-transform:translate(-50%);
+        -ms-transform:translate(-50%);
+         -o-transform:translate(-50%);
+      }
+      .title {
+        position: absolute;
+        font-family: 'PingFangSC-Semibold';
+        font-size: 1.42rem;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        left: 50%;
+        -webkit-transform:translate(-50%);
+        -moz-transform:translate(-50%);
+        -ms-transform:translate(-50%);
+         -o-transform:translate(-50%);
+         bottom: 4rem;
+      }
+    }
+    .year-card {
+      .card-list {
+        height: 5rem;
+        width: 100%;
+        padding: 0 4.1%;
+        box-sizing: border-box;
+        margin-top: 1.25rem;
+        .card-item {
+          display: inline-block;
+          width: 30.8%;
+          border:0.083rem solid #979797;
+          height: 5rem;
+          margin-right: 2.7%;
+          border-radius: 0.17rem;
+          text-align: center;
+          position: relative;
+          p {
+            margin-top: 0.79rem;
+            font-family: 'PingFangSC-Regular';
+            font-size: 1.42rem;
+            color: #D8D8D8;
+            line-height: 2rem;
+          }
+          span {
+            font-family:'PingFangSC-Regular';
+            font-size: 1rem;
+            color: #D8D8D8;
+            line-height: 1.37rem;
+          }
+          .triangle {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-bottom: 1.98rem solid #FCCB51;
+            border-left: 1.98rem solid transparent;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            
+            .pitch{
+                position: absolute;
+                top: 0.92rem;
+                right: 0.08rem;
+                font-size: 1rem;
+              }
+          }
+        }
+        .active {
+          border: 0.083rem solid #FCCB51;
+        }
+        .card-item:last-child {
+          margin-right: 0;
+        }
+      }
+    }
+    .privileges {
+      width: 100%;
+      box-sizing: border-box;
+      padding-left: 4.1%;
+      margin-top: 2.5rem;
+      padding-bottom: 0.84rem;
+      border-bottom: 0.04rem solid #666666;
+      .crown {
+        height: 2rem;
+        margin-right: 0.45rem;
+        color: #FCCB51;
+      }
+      h2 {
+        font-family: 'PingFangSC-Regular';
+        font-size: 1.42rem;
+        color: #FCCB51;
+        display: inline-block;
+        height: 2rem;
+        line-height: 2rem;
+      }
+    }
+    .state-list {
+      .statement {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0 4%;
+        .state-item {
+          width: 100%;
+          border-bottom: 0.04rem solid #666666;
+          padding: 0.67rem 0;
+          h2 {
+            height: 1.88rem;
+            font-family: 'PingFangSC-Regular';
+            font-size: 1.33rem;
+            color: #CCCCCC;
+          }
+          p {
+            font-family: 'PingFangSC-Regular';
+            font-size: 1.17rem;
+            line-height: 1.67rem;
+            color: #999999;
+          }
+        }
+        .state-item:first-child {
+          padding-top: 1.67rem;
+        }
+        .state-item:last-child {
+          padding-bottom: 1.67rem;
+        }
+      }
+    }
+    .notice {
+      margin-top: 2.33rem;
+      padding-left: 4%;
+      box-sizing: border-box;
+      padding-bottom: 1.67rem;
+      h2 {
+        font-family: 'PingFangSC-Regular';
+        font-size: 1.42rem;
+        color: #FFFFFF;
+      }
+      .notice-list {
+        .notice-item {
+          margin-top: 0.84rem;
+          font-family: 'PingFangSC-Regular';
+          font-size: 1.17rem;
+          color: #CCCCCC;
+          line-height: 1.67rem;
+        }
+      }
+    }
+    .foot {
+      width: 100%;
+      height: 4.17rem;
+      box-sizing: content-box;
+      font-size: 0;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      .buy-price {
+        display: inline-block;
+        height: 100%;
+        width: 62.7%;
+        background-color: #FFFFFF;
+        padding-left: 5.2%;
+        box-sizing: border-box;
+        vertical-align: top;
+        .discount {
+          font-family: 'PingFangSC-Semibold';
+          font-size: 1.5rem;
+          color:  #FB227F;
+          line-height: 2rem;
+          display: inline-block;
+          margin-top: 0.37rem;
+        }
+        .original {
+          font-family: 'PingFangSC-Regular';
+          font-size: 1.17rem;
+          color: #999999;
+          line-height: 1.67rem;
+          position: relative;
+          .line {
+            display: inline-block;
+            width: 3.8rem;
+            height: 0;
+            border-top: 1px solid #999999;
+            position: absolute;
+            top: 0.75rem;
+            right: -0.2rem;
+          }
+        }
+        p {
+          font-family: 'PingFangSC-Regular';
+          font-size: 1rem;
+          color: #2C2E3A;
+          line-height: 1.37rem;
+        }
+      }
+      .buy-now {
+        height: 100%;
+        width: 37.3%;
+        display: inline-block;
+        background-color: #FCCB51;
+        text-align: center;
+        line-height: 4.17rem;
+        font-family: 'PingFangSC-Regular';
+        font-size: 1.5rem;
+        color: #2C2E3A;
+      }
+    }
+  }
+}
